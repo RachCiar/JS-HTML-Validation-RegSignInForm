@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2018, 5:49:42 PM
+    Author     : rachc
+*/
+* {box-sizing: border-box;} /*The box-sizing property allows us to include the
+//padding and border in an element's total width and height.*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8ff;
+}
+
+.header{
+    width: 100%;
+    margin: auto 0px;
+    color: white;
+    background: #5f9ea0;
+    text-align: center;
+    border:  1px solid #80c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+/*CSS for Header */
+
+
+.navbarul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3; 
+    
+}
+
+.navbarli{
+   float: left; 
+}
+
+.navbarli a {
+    display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
+}
+
+.navbarli a.active {
+    color: white;
+  background-color: #5f9ea0;
+}
+.registerForm {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #5f9ea0;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.userinfo {
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #5f9ea0;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*CSS for Form pages */
+.content{
+    float:right;
+    padding: 20px;
+}
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn{
+    clear: both;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5f9ea0;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-box {
+    margin: auto;
+    height: 100px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#insert{
+    clear: both;
+    float: right;
+}
+
+/*CSs for form validators */
+
+/* This is our style for the invalid fields */
+input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+
+input:valid {
+  border: 2px solid black;
+}
+
+/*CSS for email */
+input.email{
+  -webkit-appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* This is the style of our error messages */
+.error {
+  width  : 100%;
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}

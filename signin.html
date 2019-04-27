@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign-in Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="DWD257-Final-RegSignIn-1/main.js"></script>
+      
+    </head>
+     <header>
+            <h1>Welcome to the Sign-In Page</h1>
+            <div class="navbar">
+            <ul class="navbarul">
+            <li class="navbarli"><a href="index.html" class="active">Home</a><li>
+            <li class="navbarli"><a href="signin.html">Sign-In Page</a></li>
+            <li class="navbarli"><a href="register.html">Register Page</a></li>
+            <li class="navbarli"><a href="userInfo.html">User Information</a></li>
+            </ul>
+            </div>
+        </header>
+       <form  action="" method="post" class="registerForm">
+
+            <div class="header">
+                <h2>Sign-In</h2>
+            </div>
+                     
+          
+            <div class="input-group">
+                <label>Email Address:</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label>Password:</label>
+                <input type="password"  name="pass1" required>
+            </div>
+          
+            <div class="input-group">
+                <button type="submit" value="Sign-In" name="signin" class="btn">Sign-In</button>
+            </div>
+            <p>
+                Not a member yet? <a href="register.html">Register</a>
+            </p>
+
+        </form>
+</html>
